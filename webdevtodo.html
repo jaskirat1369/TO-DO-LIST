@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="todotitle">To Do List</h1>
+
+    <div id="inputform">
+      <input
+        type="text"
+        name="taskinput"
+        id="taskinput"
+        placeholder="Add New Task"
+      />
+      <span>
+        <button id="taskbtn" onclick="addtask()">Add Task</button>
+      </span>
+    </div>
+
+    <div id="listitems">
+      <ul id="ultasklist">
+
+      </ul>
+    </div>
+
+  </body>
+
+  <script src="webdevtodo.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</html>

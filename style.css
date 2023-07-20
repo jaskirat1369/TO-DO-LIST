@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(248, 237, 217);
+}
+
+#todotitle{
+    text-align: center;
+    padding: 1rem;
+    color: blue;
+}
+
+#taskinput{
+    padding: 0.9rem;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+#taskbtn{
+    padding: 1.1rem;
+    border: 1px solid black;
+    background-color: rgb(231, 231, 231);
+}
+
+#inputform{
+    text-align: center;
+}
+
+#listitems{
+    display: flex;
+    justify-content: center;
+    margin-left: -10rem;
+    padding: 2rem;
+}
+
+#ultasklist{
+    list-style: none;
+}
+
+.taskactionbtns{
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.9rem;
+    outline: none;
+    
+}
+
+#crossbtn{
+    background-color: rgb(221, 100, 121);
+}
+
+#upbtn{
+    background-color: rgb(107,185,228);
+}
+
+#downbtn{
+    background-color: rgb(233,168,85);
+}
+
+
+
+.listitem{
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+    width: 150%;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem;
+    background-color: rgb(156,229, 208);
+}
+
+.listitem span{
+    margin-left: 1rem;
+}
